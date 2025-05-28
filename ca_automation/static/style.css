@@ -1,0 +1,22 @@
+/* Custom styles for Streamlit app */
+body {
+    background-color: #f3f4f6;
+}
+.stButton>button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    border: none;
+}
+.stButton>button:hover {
+    background-color: #1d4ed8;
+}
+.stTextInput>div>input {
+    border-radius: 0.375rem;
+    border: 1px solid #d1d5db;
+    padding: 0.5rem;
+}
+.stSelectbox>div {
+    border-radius: 0.375rem;
+}
